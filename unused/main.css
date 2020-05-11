@@ -15,11 +15,13 @@ body {
 }
 #typeboxinput {
     width: 70%;
+    z-index: 1;
 
 }
 
 #commentbuttonhit {
-    position : fixed;
+    z-index: 2;
+    position : absolute;
     right: 0px;
     /*width: 10%;*/
 
